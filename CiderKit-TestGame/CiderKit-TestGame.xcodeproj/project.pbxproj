@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D9254469281ABEEE002DCA4C /* Music in Resources */ = {isa = PBXBuildFile; fileRef = D9254464281ABEEE002DCA4C /* Music */; };
+		D925446A281ABEEE002DCA4C /* Maps in Resources */ = {isa = PBXBuildFile; fileRef = D9254465281ABEEE002DCA4C /* Maps */; };
+		D925446B281ABEEE002DCA4C /* Textures in Resources */ = {isa = PBXBuildFile; fileRef = D9254466281ABEEE002DCA4C /* Textures */; };
+		D925446C281ABEEE002DCA4C /* Materials in Resources */ = {isa = PBXBuildFile; fileRef = D9254467281ABEEE002DCA4C /* Materials */; };
+		D925446D281ABEEE002DCA4C /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = D9254468281ABEEE002DCA4C /* Sounds */; };
 		D953684F28141E8900A5BFEA /* CiderKit_Engine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D953684E28141E8900A5BFEA /* CiderKit_Engine.framework */; };
 		D953685028141E8900A5BFEA /* CiderKit_Engine.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D953684E28141E8900A5BFEA /* CiderKit_Engine.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D99369492813F41F00AC07F9 /* CiderKit_TestGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99369482813F41F00AC07F9 /* CiderKit_TestGameApp.swift */; };
 		D993694D2813F42300AC07F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D993694C2813F42300AC07F9 /* Assets.xcassets */; };
-		D99369592813F48600AC07F9 /* map.ckmap in Resources */ = {isa = PBXBuildFile; fileRef = D99369582813F48600AC07F9 /* map.ckmap */; };
 		D99369612813F72600AC07F9 /* Sprites.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D99369602813F70400AC07F9 /* Sprites.xcassets */; };
+		D9ABEDEB28150FB9002374ED /* Settings in Resources */ = {isa = PBXBuildFile; fileRef = D9ABEDEA28150FB9002374ED /* Settings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,13 +35,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D9254464281ABEEE002DCA4C /* Music */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Music; sourceTree = "<group>"; };
+		D9254465281ABEEE002DCA4C /* Maps */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Maps; sourceTree = "<group>"; };
+		D9254466281ABEEE002DCA4C /* Textures */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Textures; sourceTree = "<group>"; };
+		D9254467281ABEEE002DCA4C /* Materials */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Materials; sourceTree = "<group>"; };
+		D9254468281ABEEE002DCA4C /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
+		D925446E281AC605002DCA4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D953684E28141E8900A5BFEA /* CiderKit_Engine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CiderKit_Engine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D99369452813F41F00AC07F9 /* CiderKit-TestGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CiderKit-TestGame.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D99369482813F41F00AC07F9 /* CiderKit_TestGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CiderKit_TestGameApp.swift; sourceTree = "<group>"; };
 		D993694C2813F42300AC07F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D99369512813F42300AC07F9 /* CiderKit_TestGame.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CiderKit_TestGame.entitlements; sourceTree = "<group>"; };
-		D99369582813F48600AC07F9 /* map.ckmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = map.ckmap; sourceTree = "<group>"; };
 		D99369602813F70400AC07F9 /* Sprites.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Sprites.xcassets; sourceTree = "<group>"; };
+		D9ABEDEA28150FB9002374ED /* Settings */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Settings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +65,12 @@
 		D993693C2813F41F00AC07F9 = {
 			isa = PBXGroup;
 			children = (
+				D9254465281ABEEE002DCA4C /* Maps */,
+				D9254467281ABEEE002DCA4C /* Materials */,
+				D9254464281ABEEE002DCA4C /* Music */,
+				D9ABEDEA28150FB9002374ED /* Settings */,
+				D9254468281ABEEE002DCA4C /* Sounds */,
+				D9254466281ABEEE002DCA4C /* Textures */,
 				D99369472813F41F00AC07F9 /* CiderKit-TestGame */,
 				D993695A2813F4A300AC07F9 /* Frameworks */,
 				D99369462813F41F00AC07F9 /* Products */,
@@ -73,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				D99369512813F42300AC07F9 /* CiderKit_TestGame.entitlements */,
+				D925446E281AC605002DCA4C /* Info.plist */,
 				D99369482813F41F00AC07F9 /* CiderKit_TestGameApp.swift */,
 				D993694C2813F42300AC07F9 /* Assets.xcassets */,
 			);
@@ -83,7 +101,6 @@
 			isa = PBXGroup;
 			children = (
 				D99369602813F70400AC07F9 /* Sprites.xcassets */,
-				D99369582813F48600AC07F9 /* map.ckmap */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -156,8 +173,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D99369612813F72600AC07F9 /* Sprites.xcassets in Resources */,
+				D925446A281ABEEE002DCA4C /* Maps in Resources */,
+				D9254469281ABEEE002DCA4C /* Music in Resources */,
+				D925446D281ABEEE002DCA4C /* Sounds in Resources */,
+				D925446C281ABEEE002DCA4C /* Materials in Resources */,
+				D9ABEDEB28150FB9002374ED /* Settings in Resources */,
+				D925446B281ABEEE002DCA4C /* Textures in Resources */,
 				D993694D2813F42300AC07F9 /* Assets.xcassets in Resources */,
-				D99369592813F48600AC07F9 /* map.ckmap in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +323,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CiderKit-TestGame/Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -328,6 +351,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CiderKit-TestGame/Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -10,7 +10,16 @@ class CiderKit_TestGameApp: NSObject, NSApplicationDelegate {
     }
     
     private func setup() -> Void {
-        let windowRect = NSRect(x: 100, y: 100, width: 640, height: 360)
+        do {
+            try Project.open(at: Bundle.main.resourceURL!)
+        }
+        catch {
+            fatalError("Unable to open project")
+        }
+        
+        let projectSettings = Project.current!.settings
+        
+        let windowRect = NSRect(x: 100, y: 100, width: projectSettings.targetResolutionWidth, height: projectSettings.targetResolutionHeight)
         let window = NSWindow(contentRect: windowRect, styleMask: [.titled, .closable, .resizable], backing: .buffered, defer: false)
         window.acceptsMouseMovedEvents = true
         window.title = "CiderKit Test Game"
@@ -19,8 +28,9 @@ class CiderKit_TestGameApp: NSObject, NSApplicationDelegate {
         window.makeKeyAndOrderFront(nil)
         window.toggleFullScreen(nil)
         
-        let url = Bundle.main.url(forResource: "map", withExtension: "ckmap")
-        gameView.loadMap(file: url!)
+        if let startMapURL = projectSettings.startMapURL {
+            gameView.loadMap(file: startMapURL)
+        }
     }
     
     private func setupMainMenu() -> Void {
