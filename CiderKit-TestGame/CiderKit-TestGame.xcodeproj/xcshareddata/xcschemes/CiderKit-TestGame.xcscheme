@@ -14,6 +14,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D93C4C8E2800CBD6000955E1"
+               BuildableName = "CiderKit_Engine.framework"
+               BlueprintName = "CiderKit-Engine"
+               ReferencedContainer = "container:../CiderKit/CiderKit.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "D99369442813F41F00AC07F9"
                BuildableName = "CiderKit-TestGame.app"
                BlueprintName = "CiderKit-TestGame"
