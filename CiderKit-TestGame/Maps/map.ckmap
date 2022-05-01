@@ -26,7 +26,16 @@
             "y": 0,
             "width": 2,
             "height": 3,
-            "elevation": 4
+            "elevation": 4,
+            "materialOverrides": {
+                "g": [
+                    null,
+                    null,
+                    {
+                        "i": { "si": 1 }
+                    }
+                ]
+            }
         },
         {
             "x": 0,

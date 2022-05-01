@@ -14,7 +14,7 @@ class CiderKit_TestGameApp: NSObject, NSApplicationDelegate {
             try Project.open(at: Bundle.main.resourceURL!)
         }
         catch {
-            fatalError("Unable to open project")
+            fatalError("Unable to open project\n\(error)")
         }
         
         let projectSettings = Project.current!.settings
