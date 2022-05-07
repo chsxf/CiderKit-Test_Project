@@ -1,12 +1,15 @@
 {
   "images" : [
     {
-      "filename" : "default_tile.png",
+      "filename" : "Main Atlas.png",
       "idiom" : "universal"
     }
   ],
   "info" : {
     "author" : "xcode",
     "version" : 1
+  },
+  "properties" : {
+    "compression-type" : "lossless"
   }
 }

@@ -52,17 +52,13 @@ class CiderKit_TestGameApp: NSObject, NSApplicationDelegate {
         let delegate = CiderKit_TestGameApp()
         NSApp.delegate = delegate
         
-        Task.detached {
-            try? await Atlases.preload(atlases: [
-                "main": "Main Atlas"
-            ])
-            
-            DispatchQueue.main.async {
-                delegate.setup()
-                delegate.setupMainMenu()
-            }
-        }
+        try? Atlases.load(atlases: [
+            Atlases.MAIN_ATLAS_KEY: URL(fileURLWithPath: "Atlases/Main Atlas.ckatlas", relativeTo: Bundle.main.resourceURL)
+        ])
         
+        delegate.setup()
+        delegate.setupMainMenu()
+
         NSApp.run()
     }
 

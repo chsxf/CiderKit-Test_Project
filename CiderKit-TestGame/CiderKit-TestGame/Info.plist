@@ -5,6 +5,23 @@
 	<key>UTExportedTypeDeclarations</key>
 	<array>
 		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.json</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>CiderKit Altas File</string>
+			<key>UTTypeIdentifier</key>
+			<string>com.xhaleera.CiderKit.atlas</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>ckatlas</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
 			<key>UTTypeDescription</key>
 			<string>CiderKit Settings File</string>
 			<key>UTTypeConformsTo</key>
