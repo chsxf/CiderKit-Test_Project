@@ -53,7 +53,7 @@ class CiderKit_TestGameApp: NSObject, NSApplicationDelegate {
         NSApp.delegate = delegate
         
         try? Atlases.load(atlases: [
-            Atlases.MAIN_ATLAS_KEY: URL(fileURLWithPath: "Atlases/Main Atlas.ckatlas", relativeTo: Bundle.main.resourceURL)
+            "default_tile": AtlasLocator(url: CiderKitEngine.bundle.url(forResource: "Default Tile Atlas", withExtension: "ckatlas")!, bundle: CiderKitEngine.bundle)
         ])
         
         delegate.setup()
