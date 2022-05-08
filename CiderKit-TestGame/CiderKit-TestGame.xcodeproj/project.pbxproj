@@ -13,7 +13,6 @@
 		D925446D281ABEEE002DCA4C /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = D9254468281ABEEE002DCA4C /* Sounds */; };
 		D953684F28141E8900A5BFEA /* CiderKit_Engine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D953684E28141E8900A5BFEA /* CiderKit_Engine.framework */; };
 		D953685028141E8900A5BFEA /* CiderKit_Engine.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D953684E28141E8900A5BFEA /* CiderKit_Engine.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D978AE2F28271692008F8D0E /* Atlases in Resources */ = {isa = PBXBuildFile; fileRef = D978AE2E28271692008F8D0E /* Atlases */; };
 		D99369492813F41F00AC07F9 /* CiderKit_TestGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99369482813F41F00AC07F9 /* CiderKit_TestGameApp.swift */; };
 		D993694D2813F42300AC07F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D993694C2813F42300AC07F9 /* Assets.xcassets */; };
 		D99369612813F72600AC07F9 /* Sprites.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D99369602813F70400AC07F9 /* Sprites.xcassets */; };
@@ -41,7 +40,6 @@
 		D9254468281ABEEE002DCA4C /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 		D925446E281AC605002DCA4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D953684E28141E8900A5BFEA /* CiderKit_Engine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CiderKit_Engine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D978AE2E28271692008F8D0E /* Atlases */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Atlases; sourceTree = "<group>"; };
 		D99369452813F41F00AC07F9 /* CiderKit-TestGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CiderKit-TestGame.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D99369482813F41F00AC07F9 /* CiderKit_TestGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CiderKit_TestGameApp.swift; sourceTree = "<group>"; };
 		D993694C2813F42300AC07F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -65,7 +63,6 @@
 		D993693C2813F41F00AC07F9 = {
 			isa = PBXGroup;
 			children = (
-				D978AE2E28271692008F8D0E /* Atlases */,
 				D9254465281ABEEE002DCA4C /* Maps */,
 				D9254467281ABEEE002DCA4C /* Materials */,
 				D9254464281ABEEE002DCA4C /* Music */,
@@ -178,7 +175,6 @@
 				D925446D281ABEEE002DCA4C /* Sounds in Resources */,
 				D925446C281ABEEE002DCA4C /* Materials in Resources */,
 				D9ABEDEB28150FB9002374ED /* Settings in Resources */,
-				D978AE2F28271692008F8D0E /* Atlases in Resources */,
 				D993694D2813F42300AC07F9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
