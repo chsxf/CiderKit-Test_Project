@@ -29,8 +29,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D99369442813F41F00AC07F9"
-               BuildableName = "CiderKit-TestGame.app"
-               BlueprintName = "CiderKit-TestGame"
+               BuildableName = "CiderKit-TestGame-macOS.app"
+               BlueprintName = "CiderKit-TestGame-macOS"
                ReferencedContainer = "container:CiderKit-TestGame.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -60,8 +60,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D99369442813F41F00AC07F9"
-            BuildableName = "CiderKit-TestGame.app"
-            BlueprintName = "CiderKit-TestGame"
+            BuildableName = "CiderKit-TestGame-macOS.app"
+            BlueprintName = "CiderKit-TestGame-macOS"
             ReferencedContainer = "container:CiderKit-TestGame.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -77,8 +77,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D99369442813F41F00AC07F9"
-            BuildableName = "CiderKit-TestGame.app"
-            BlueprintName = "CiderKit-TestGame"
+            BuildableName = "CiderKit-TestGame-macOS.app"
+            BlueprintName = "CiderKit-TestGame-macOS"
             ReferencedContainer = "container:CiderKit-TestGame.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
