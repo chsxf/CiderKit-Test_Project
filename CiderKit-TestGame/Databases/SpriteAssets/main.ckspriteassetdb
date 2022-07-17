@@ -1,0 +1,57 @@
+{
+  "id" : "main",
+  "isDefault" : true,
+  "spriteAssets" : [
+    {
+      "name" : "Test Asset",
+      "root" : {
+        "c" : [
+          {
+            "n" : "New element",
+            "o" : [
+              0,
+              0
+            ],
+            "r" : 0,
+            "s" : {
+              "a" : "default_tile",
+              "s" : "default_elevation_left"
+            }
+          }
+        ],
+        "n" : "root",
+        "o" : [
+          0,
+          0
+        ],
+        "r" : 0
+      },
+      "uuid" : "105BD8A7-C8AA-4681-B9D8-39699AB83F58"
+    },
+    {
+      "name" : "New Sprite Asset 2",
+      "root" : {
+        "n" : "root",
+        "o" : [
+          0,
+          0
+        ],
+        "r" : 0
+      },
+      "uuid" : "3BEB92D2-5F6F-4FD0-B532-3F5E369452B6"
+    },
+    {
+      "name" : "New Sprite Asset 3",
+      "root" : {
+        "n" : "root",
+        "o" : [
+          0,
+          0
+        ],
+        "r" : 0
+      },
+      "uuid" : "96F54B31-2F54-4CB3-AD43-6F38F9C01E58"
+    }
+  ],
+  "version" : "0.1"
+}
