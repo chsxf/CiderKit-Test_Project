@@ -11,6 +11,8 @@
 		D925446A281ABEEE002DCA4C /* Maps in Resources */ = {isa = PBXBuildFile; fileRef = D9254465281ABEEE002DCA4C /* Maps */; };
 		D925446C281ABEEE002DCA4C /* Materials in Resources */ = {isa = PBXBuildFile; fileRef = D9254467281ABEEE002DCA4C /* Materials */; };
 		D925446D281ABEEE002DCA4C /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = D9254468281ABEEE002DCA4C /* Sounds */; };
+		D94927E32884C5510054B343 /* Databases in Resources */ = {isa = PBXBuildFile; fileRef = D94927E22884C5510054B343 /* Databases */; };
+		D94927E42884C5510054B343 /* Databases in Resources */ = {isa = PBXBuildFile; fileRef = D94927E22884C5510054B343 /* Databases */; };
 		D953684F28141E8900A5BFEA /* CiderKit_Engine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D953684E28141E8900A5BFEA /* CiderKit_Engine.framework */; };
 		D953685028141E8900A5BFEA /* CiderKit_Engine.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D953684E28141E8900A5BFEA /* CiderKit_Engine.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D99369492813F41F00AC07F9 /* CiderKit_TestGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99369482813F41F00AC07F9 /* CiderKit_TestGameApp.swift */; };
@@ -61,6 +63,7 @@
 		D9254467281ABEEE002DCA4C /* Materials */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Materials; sourceTree = "<group>"; };
 		D9254468281ABEEE002DCA4C /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 		D925446E281AC605002DCA4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D94927E22884C5510054B343 /* Databases */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Databases; sourceTree = "<group>"; };
 		D953684E28141E8900A5BFEA /* CiderKit_Engine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CiderKit_Engine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D99369452813F41F00AC07F9 /* CiderKit-TestGame-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CiderKit-TestGame-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D99369482813F41F00AC07F9 /* CiderKit_TestGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CiderKit_TestGameApp.swift; sourceTree = "<group>"; };
@@ -97,6 +100,7 @@
 		D993693C2813F41F00AC07F9 = {
 			isa = PBXGroup;
 			children = (
+				D94927E22884C5510054B343 /* Databases */,
 				D9254465281ABEEE002DCA4C /* Maps */,
 				D9254467281ABEEE002DCA4C /* Materials */,
 				D9254464281ABEEE002DCA4C /* Music */,
@@ -238,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D99369612813F72600AC07F9 /* Sprites.xcassets in Resources */,
+				D94927E32884C5510054B343 /* Databases in Resources */,
 				D925446A281ABEEE002DCA4C /* Maps in Resources */,
 				D9254469281ABEEE002DCA4C /* Music in Resources */,
 				D925446D281ABEEE002DCA4C /* Sounds in Resources */,
@@ -252,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9A64D02282C677400CAF635 /* Music in Resources */,
+				D94927E42884C5510054B343 /* Databases in Resources */,
 				D9A64D00282C677400CAF635 /* Sounds in Resources */,
 				D9A64D01282C677400CAF635 /* Materials in Resources */,
 				D9A64CFE282C676700CAF635 /* Sprites.xcassets in Resources */,

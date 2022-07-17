@@ -55,6 +55,23 @@
 				</array>
 			</dict>
 		</dict>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.json</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>CiderKit Sprite Asset Database File</string>
+			<key>UTTypeIdentifier</key>
+			<string>com.xhaleera.CiderKit.spriteAssetDatabase</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>ckspriteassetdb</string>
+				</array>
+			</dict>
+		</dict>
 	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
