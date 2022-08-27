@@ -7,6 +7,16 @@
       "root" : {
         "c" : [
           {
+            "cb" : 1,
+            "cl" : {
+              "cmp" : [
+                1,
+                0,
+                0.016666666666666621,
+                1
+              ],
+              "csn" : "kCGColorSpaceGenericRGB"
+            },
             "n" : "New element",
             "o" : [
               0,
@@ -19,6 +29,14 @@
             }
           }
         ],
+        "cb" : 0,
+        "cl" : {
+          "cmp" : [
+            1,
+            1
+          ],
+          "csn" : "kCGColorSpaceGenericGrayGamma2_2"
+        },
         "n" : "root",
         "o" : [
           0,
@@ -31,6 +49,14 @@
     {
       "name" : "New Sprite Asset 2",
       "root" : {
+        "cb" : 0,
+        "cl" : {
+          "cmp" : [
+            1,
+            1
+          ],
+          "csn" : "kCGColorSpaceGenericGrayGamma2_2"
+        },
         "n" : "root",
         "o" : [
           0,
@@ -43,6 +69,14 @@
     {
       "name" : "New Sprite Asset 3",
       "root" : {
+        "cb" : 0,
+        "cl" : {
+          "cmp" : [
+            1,
+            1
+          ],
+          "csn" : "kCGColorSpaceGenericGrayGamma2_2"
+        },
         "n" : "root",
         "o" : [
           0,
